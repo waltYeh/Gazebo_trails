@@ -1,6 +1,7 @@
 <launch>	  
 	<!-- ros_control mybot launch file -->
 	<include file="$(find mybot_control)/launch/mybot_control.launch" />	
+	<include file="$(find mybot_gazebo)/launch/mybot_rqt.launch" />	
 	<include file="$(find gazebo_ros)/launch/empty_world.launch">	    
 		<arg name="world_name" value="$(find mybot_gazebo)/worlds/mybot.world"/>	    
 		<arg name="gui" value="true"/>	  

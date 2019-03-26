@@ -11,8 +11,9 @@
     args="joint_state_controller
       rightWheel_effort_controller
       leftWheel_effort_controller"
+    
   />
-
+<!--arg refer to yaml-->
 
   <!-- convert joint states to TF transforms for rviz, etc -->
   <node name="robot_state_publisher" pkg="robot_state_publisher" type="robot_state_publisher" respawn="false" output="screen">
